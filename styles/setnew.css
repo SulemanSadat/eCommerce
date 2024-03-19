@@ -1,0 +1,281 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+
+:root {
+    --maincolor: #FFFFFF;
+    --white: #FFFFFF
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Calibri';
+    background-color: #ffffff;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid #000000; */
+
+}
+
+.lock {
+
+    width: 60px;
+}
+
+div.container {
+    display: grid;
+    grid-template-rows: 100px 550px;
+    grid-template-columns: 300px;
+    margin: 0 auto;
+    background-color: none;
+    width: 300px;
+
+}
+
+.left {
+    background: none;
+    height: 0;
+}
+
+.setnew {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 300;
+    user-select: none;
+    text-wrap: nowrap;
+    display: none;
+}
+
+
+
+
+form.data {
+
+    background: #FFFFFF;
+    margin: 0% 0%;
+    border-radius: 10px;
+    height: 100%;
+    padding: 0 20px;
+    min-width: 200px;
+    overflow: hidden;
+    /* filter: drop-shadow(0px 1px 5px #00000042); */
+}
+
+.lock {
+    width: 50px;
+    margin: 0 auto;
+
+    display: block;
+    position: relative;
+}
+
+.setnew2 {
+    text-align: center;
+    margin: 20px auto 5px auto;
+    color: #141414;
+    font-size: 25px;
+    user-select: none;
+    text-wrap: nowrap;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    margin: 5px auto 50px auto;
+}
+
+.email,
+.email2 {
+    color: #252525;
+    font-size: 1rem;
+    outline: none;
+    padding: 5px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ACCC6D;
+    margin: 10px 0;
+    transition: .5s ease;
+}
+
+.email:hover {
+    padding: 10px 0;
+
+}
+
+
+/* label {
+    user-select: none;
+    font-size: 17px;
+
+} */
+
+::placeholder {
+    font-size: 15px;
+    color: #ACCC6D;
+}
+
+
+
+
+.submit {
+    padding: 15px 40px;
+    background-color: #96BF48;
+    border-radius: 8px;
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    font-size: 1.1rem;
+    color: #FFF;
+    transition: .5s ease;
+    display: block;
+}
+
+.submit:hover {
+    background-color: #000000;
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+div.back {
+    display: flex;
+    justify-content: center;
+
+}
+
+.backimg {
+    width: 25px;
+    margin-top: -2px;
+    cursor: pointer;
+}
+
+a.backlogin {
+    color: #ACCC6D;
+    text-decoration: none;
+    text-align: center;
+    text-wrap: none;
+}
+
+.logo {
+    display: none;
+}
+
+.back {
+    margin: 30px auto auto auto;
+}
+
+a.backlogin:hover {}
+
+@media only screen and (min-width: 900px) {
+    div.container {
+        display: grid;
+        grid-template-areas: 'Registernow data';
+        grid-template-rows: 550px;
+        grid-template-columns: 50% 50%;
+        padding: 80px 0;
+        width: 900px;
+        max-width: 900px;
+    }
+
+    body {
+        background-color: #ACCC6D;
+
+    }
+
+    .lock {
+        width: 60px;
+        margin: 30px auto;
+    }
+
+    form.data {
+        border-radius: 0;
+        margin: 0;
+        height: 100%;
+        padding: 30px 60px;
+        filter: none;
+    }
+
+    .setnew {
+        color: #ACCC6D;
+        margin-bottom: 70px;
+        font-size: 30px;
+        font-weight: 350;
+        letter-spacing: 0.3rem;
+        display: block;
+
+
+    }
+
+    .login {
+
+        padding: 25px;
+        font-size: 25px;
+    }
+
+
+    .forgotpassword {
+        font-size: 25px;
+        color: #000000;
+
+    }
+
+    .email {
+        margin: 20px auto;
+        font-size: 17px;
+        background-color: #FFF;
+
+    }
+
+    ::placeholder {
+        font-size: 1rem;
+    }
+
+    p.pass {
+        font-size: 15px;
+        margin: 13px auto;
+        text-wrap: wrap;
+    }
+
+    .left {
+
+        background: #f4f4f4;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .logo {
+        opacity: 60%;
+        width: 400px;
+        display: block;
+        margin: 20px auto;
+
+    }
+
+    .submit {
+        margin: 15px 0;
+    }
+
+    .backimg {
+        width: 30px;
+        padding: 0;
+        margin-top: -5px;
+
+    }
+
+    .back {
+        margin: 30px auto auto auto;
+    }
+
+}
