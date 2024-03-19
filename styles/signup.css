@@ -154,7 +154,8 @@ a.forget,
 
 }
 
-.logo {
+.logo,
+.create {
     display: none;
 }
 
